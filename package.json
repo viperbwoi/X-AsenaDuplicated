@@ -31,6 +31,8 @@
         "ytdl-core": "^4.11.4"
     },
     "scripts": {
+        "start": "pm2 start . --attach --name Bot",
+        "stop": "pm2 stop . --attach --name Bot",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
